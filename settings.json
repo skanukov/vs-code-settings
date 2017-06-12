@@ -15,6 +15,9 @@
   // Render the actual characters on a line (as opposed to color blocks).
   "editor.minimap.renderCharacters": false,
 
+  // Commit all changes when there are not staged changes.
+  "git.enableSmartCommit": true,
+
   // Confirm before synchronizing git repositories.
   "git.confirmSync": false,
 
