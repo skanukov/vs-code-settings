@@ -1,10 +1,13 @@
 // Place your settings in this file to overwrite the default settings.
 {
   // Controls the font size in pixels.
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
 
   // Controls whether the editor should render indent guides.
   "editor.renderIndentGuides": true,
+
+  // Controls how the editor should render whitespace characters, possibilities are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
+  "editor.renderWhitespace": "boundary",
 
   // Columns at which to show vertical rulers.
   "editor.rulers": [80],
