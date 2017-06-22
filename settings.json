@@ -3,6 +3,9 @@
   // Controls the font size in pixels.
   "editor.fontSize": 14,
 
+  // The number of spaces a tab is equal to. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
+  "editor.tabSize": 2,
+
   // Controls whether the editor should render indent guides.
   "editor.renderIndentGuides": true,
 
