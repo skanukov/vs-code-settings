@@ -12,9 +12,6 @@
   // Columns at which to show vertical rulers.
   "editor.rulers": [80],
 
-  // Controls if the minimap is shown.
-  "editor.minimap.enabled": true,
-
   // Render the actual characters on a line (as opposed to color blocks).
   "editor.minimap.renderCharacters": false,
 
@@ -34,11 +31,17 @@
   // Configure whether you receive automatic updates from an update channel. Requires a restart after change.
   "update.channel": "default",
 
-  // Specifies the icon theme used in the workbench.
-  "workbench.iconTheme": "vs-seti",
-
 // Python configuration.
 
   // Provider for formatting. Possible options include 'autopep8' and 'yapf'.
-  "python.formatting.provider": "yapf"
+  "python.formatting.provider": "yapf",
+
+// Ruby configuration.
+  
+  // Set individual ruby linters to use.
+  "ruby.lint": {
+    "rubocop": {
+      "rails": true
+    }
+  }
 }
