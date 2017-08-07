@@ -4,7 +4,7 @@
   "editor.fontSize": 14,
 
   // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
-  "editor.lineHeight": 20,
+  "editor.lineHeight": 21,
 
   // The number of spaces a tab is equal to. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
   "editor.tabSize": 2,
