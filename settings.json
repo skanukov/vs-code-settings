@@ -3,6 +3,9 @@
   // Controls the font size in pixels.
   "editor.fontSize": 14,
 
+  // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+  "editor.lineHeight": 20,
+
   // The number of spaces a tab is equal to. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
   "editor.tabSize": 2,
 
@@ -34,6 +37,9 @@
   // Configure whether you receive automatic updates from an update channel. Requires a restart after change.
   "update.channel": "default",
 
+  // Specifies the color theme used in the workbench.
+  "workbench.colorTheme": "Atom One Dark",
+
 // Python configuration.
 
   // Provider for formatting. Possible options include 'autopep8' and 'yapf'.
@@ -41,7 +47,7 @@
 
 // Ruby configuration.
   
-  // Set individual ruby linters to use.
+  // Set individual ruby linters to use
   "ruby.lint": {
     "rubocop": {
       "rails": true
