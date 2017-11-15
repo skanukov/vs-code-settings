@@ -40,7 +40,14 @@
   // Specifies the color theme used in the workbench.
   "workbench.colorTheme": "Atom One Dark",
 
+  // Controls which editor is shown at startup, if none is restored from the previous session. 
+  // Select 'none' to start without an editor, 'welcomePage' to open the Welcome page (default), 'newUntitledFile' to open a new untitled file (only opening an empty workspace)
+  "workbench.startupEditor": "newUntitledFile",
+
 // Python configuration.
+
+  // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
+  "python.pythonPath": "python3",
 
   // Provider for formatting. Possible options include 'autopep8' and 'yapf'.
   "python.formatting.provider": "yapf",
