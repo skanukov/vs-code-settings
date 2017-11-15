@@ -24,6 +24,12 @@
   // When enabled, insert a final new line at the end of the file when saving it.
   "files.insertFinalNewline": true,
 
+  // When enabled, will trim all new lines after the final new line at the end of the file when saving it.
+  "files.trimFinalNewlines": true,
+
+  // When enabled, will trim trailing whitespace when saving a file.
+  "files.trimTrailingWhitespace": true,
+
   // Commit all changes when there are not staged changes.
   "git.enableSmartCommit": true,
 
@@ -67,7 +73,7 @@
   "python.formatting.provider": "yapf",
 
 // Ruby configuration.
-  
+
   // Set individual ruby linters to use.
   "ruby.lint": {
     "rubocop": {
