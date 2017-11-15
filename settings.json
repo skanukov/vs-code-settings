@@ -36,6 +36,9 @@
   // Confirm before synchronizing git repositories.
   "git.confirmSync": false,
 
+  // Controls whether to use .gitignore and .ignore files by default when searching for text in a new workspace.
+  "search.useIgnoreFilesByDefault": true,
+
   // Enable crash reports to be sent to Microsoft.
   // This option requires restart to take effect.
   "telemetry.enableCrashReporter": false,
