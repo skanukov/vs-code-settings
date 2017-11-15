@@ -21,6 +21,9 @@
   // Render the actual characters on a line (as opposed to color blocks).
   "editor.minimap.renderCharacters": false,
 
+  // When enabled, insert a final new line at the end of the file when saving it.
+  "files.insertFinalNewline": true,
+
   // Commit all changes when there are not staged changes.
   "git.enableSmartCommit": true,
 
@@ -40,9 +43,20 @@
   // Specifies the color theme used in the workbench.
   "workbench.colorTheme": "Atom One Dark",
 
-  // Controls which editor is shown at startup, if none is restored from the previous session. 
-  // Select 'none' to start without an editor, 'welcomePage' to open the Welcome page (default), 'newUntitledFile' to open a new untitled file (only opening an empty workspace)
+  // Controls which editor is shown at startup, if none is restored from the previous session.
+  // Select 'none' to start without an editor, 'welcomePage' to open the Welcome page (default), 'newUntitledFile' to open a new untitled file (only opening an empty workspace).
   "workbench.startupEditor": "newUntitledFile",
+
+// Prettier configuration.
+
+  // If true, puts the `>` of a multi-line jsx element at the end of the last line instead of being alone on the next line.
+  "prettier.jsxBracketSameLine": true,
+
+  // Whether to add a semicolon at the end of every line.
+  "prettier.semi": false,
+
+  // If true, will use single instead of double quotes.
+  "prettier.singleQuote": true,
 
 // Python configuration.
 
@@ -54,7 +68,7 @@
 
 // Ruby configuration.
   
-  // Set individual ruby linters to use
+  // Set individual ruby linters to use.
   "ruby.lint": {
     "rubocop": {
       "rails": true
