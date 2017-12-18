@@ -21,6 +21,9 @@
   // Render the actual characters on a line (as opposed to color blocks).
   "editor.minimap.renderCharacters": false,
 
+  // Number of editors shown in the Open Editors pane. Set it to 0 to hide the pane.
+  "explorer.openEditors.visible": 0,
+
   // When enabled, insert a final new line at the end of the file when saving it.
   "files.insertFinalNewline": true,
 
