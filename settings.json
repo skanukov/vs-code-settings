@@ -1,83 +1,41 @@
-// Place your settings in this file to overwrite the default settings.
 {
-  // Controls the font size in pixels.
   "editor.fontSize": 14,
-
-  // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
   "editor.lineHeight": 21,
-
-  // The number of spaces a tab is equal to. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
   "editor.tabSize": 2,
-
-  // Controls whether the editor should render indent guides.
   "editor.renderIndentGuides": true,
-
-  // Controls how the editor should render whitespace characters, possibilities are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
   "editor.renderWhitespace": "boundary",
-
-  // Columns at which to show vertical rulers.
   "editor.rulers": [80],
-
-  // Render the actual characters on a line (as opposed to color blocks).
   "editor.minimap.renderCharacters": false,
 
-  // Number of editors shown in the Open Editors pane. Set it to 0 to hide the pane.
   "explorer.openEditors.visible": 0,
 
-  // When enabled, insert a final new line at the end of the file when saving it.
   "files.insertFinalNewline": true,
-
-  // When enabled, will trim all new lines after the final new line at the end of the file when saving it.
   "files.trimFinalNewlines": true,
-
-  // When enabled, will trim trailing whitespace when saving a file.
   "files.trimTrailingWhitespace": true,
 
-  // Commit all changes when there are not staged changes.
   "git.enableSmartCommit": true,
-
-  // Confirm before synchronizing git repositories.
   "git.confirmSync": false,
 
-  // Enable crash reports to be sent to Microsoft.
-  // This option requires restart to take effect.
   "telemetry.enableCrashReporter": false,
-
-  // Enable usage data and errors to be sent to Microsoft.
   "telemetry.enableTelemetry": false,
 
-  // Configure whether you receive automatic updates from an update channel. Requires a restart after change.
   "update.channel": "default",
 
-  // Specifies the color theme used in the workbench.
   "workbench.colorTheme": "Atom One Dark",
-
-  // Controls which editor is shown at startup, if none is restored from the previous session.
-  // Select 'none' to start without an editor, 'welcomePage' to open the Welcome page (default), 'newUntitledFile' to open a new untitled file (only opening an empty workspace).
   "workbench.startupEditor": "newUntitledFile",
 
 // Prettier configuration.
 
-  // If true, puts the `>` of a multi-line jsx element at the end of the last line instead of being alone on the next line.
-  "prettier.jsxBracketSameLine": true,
-
-  // Whether to add a semicolon at the end of every line.
   "prettier.semi": false,
-
-  // If true, will use single instead of double quotes.
   "prettier.singleQuote": true,
 
 // Python configuration.
 
-  // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
   "python.pythonPath": "python3",
-
-  // Provider for formatting. Possible options include 'autopep8' and 'yapf'.
   "python.formatting.provider": "yapf",
 
 // Ruby configuration.
 
-  // Set individual ruby linters to use.
   "ruby.lint": {
     "rubocop": {
       "rails": true
