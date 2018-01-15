@@ -20,6 +20,8 @@
   "telemetry.enableTelemetry": false,
 
   "update.channel": "default",
+  
+  "window.menuBarVisibility": "toggle",
 
   "workbench.colorTheme": "Atom One Dark",
   "workbench.startupEditor": "newUntitledFile",
