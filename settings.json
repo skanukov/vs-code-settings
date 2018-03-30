@@ -1,5 +1,4 @@
 {
-  "editor.fontSize": 14,
   "editor.lineHeight": 21,
   "editor.tabSize": 2,
   "editor.renderIndentGuides": true,
@@ -23,7 +22,6 @@
 
   "window.menuBarVisibility": "toggle",
 
-  "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Atom One Dark",
   "workbench.startupEditor": "newUntitledFile",
 
