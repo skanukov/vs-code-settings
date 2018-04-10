@@ -1,9 +1,10 @@
 {
+  "editor.fontWeight": "bold",
   "editor.lineHeight": 21,
   "editor.tabSize": 2,
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
-  "editor.rulers": [100],
+  "editor.rulers": [90],
   "editor.minimap.renderCharacters": false,
 
   "explorer.openEditors.visible": 0,
@@ -27,7 +28,7 @@
 
 // Prettier configuration.
 
-  "prettier.printWidth": 100,
+  "prettier.printWidth": 90,
   "prettier.semi": false,
   "prettier.singleQuote": true,
 
