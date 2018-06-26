@@ -31,6 +31,7 @@
   "prettier.printWidth": 90,
   "prettier.semi": false,
   "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
 
 // Python configuration.
 
