@@ -4,7 +4,7 @@
   "editor.tabSize": 2,
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
-  "editor.rulers": [90],
+  "editor.rulers": [100],
   "editor.minimap.renderCharacters": false,
 
   "explorer.openEditors.visible": 0,
@@ -19,30 +19,29 @@
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
 
-  "update.channel": "default",
+  // "update.channel": "default",
 
   "window.menuBarVisibility": "toggle",
 
-  "workbench.colorTheme": "Atom One Dark",
   "workbench.startupEditor": "newUntitledFile",
 
-// Prettier configuration.
+// prettier configuration
 
-  "prettier.printWidth": 90,
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "es5",
+  // "prettier.printWidth": 100,
+  // "prettier.semi": false,
+  // "prettier.singleQuote": true,
+  // "prettier.trailingComma": "es5",
 
-// Python configuration.
+// python configuration
 
-  "python.pythonPath": "python3",
-  "python.formatting.provider": "yapf",
+  // "python.pythonPath": "python3",
+  // "python.formatting.provider": "yapf",
 
-// Ruby configuration.
+// ruby configuration
 
-  "ruby.lint": {
-    "rubocop": {
-      "rails": true
-    }
-  }
+  // "ruby.lint": {
+  //  "rubocop": {
+  //    "rails": true
+  //  }
+  // }
 }
