@@ -18,8 +18,6 @@
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
 
-    "window.menuBarVisibility": "toggle",
-
     "workbench.startupEditor": "newUntitledFile",
 
 // prettier configuration
