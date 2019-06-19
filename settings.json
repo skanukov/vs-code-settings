@@ -19,6 +19,7 @@
     "telemetry.enableTelemetry": false,
 
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.feedback.visible": false,
 
 // prettier configuration
 
