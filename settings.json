@@ -1,39 +1,43 @@
 {
-    "editor.fontWeight": "bold",
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
     "editor.lineHeight": 21,
+    "editor.minimap.renderCharacters": false,
     "editor.renderIndentGuides": true,
     "editor.renderWhitespace": "boundary",
-    "editor.rulers": [100],
-    "editor.minimap.renderCharacters": false,
 
     "explorer.openEditors.visible": 0,
 
+    "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
 
-    "git.enableSmartCommit": true,
+    "git.autofetch": true,
     "git.confirmSync": false,
+    "git.enableSmartCommit": true,
 
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
 
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.feedback.visible": false,
 
-// prettier configuration
+// Go configuration
+
+    // "go.useLanguageServer": true,
+
+// Prettier configuration
 
     // "prettier.printWidth": 100,
     // "prettier.semi": false,
     // "prettier.singleQuote": true,
     // "prettier.trailingComma": "es5",
 
-// python configuration
+// Python configuration
 
     // "python.pythonPath": "python3",
     // "python.formatting.provider": "yapf",
 
-// ruby configuration
+// Ruby configuration
 
     // "ruby.lint": {
     //     "rubocop": {
