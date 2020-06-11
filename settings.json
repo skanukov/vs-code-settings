@@ -4,6 +4,7 @@
     "editor.minimap.renderCharacters": false,
     "editor.renderIndentGuides": true,
     "editor.renderWhitespace": "boundary",
+    "editor.rulers": [100],
 
     "explorer.openEditors.visible": 0,
 
